@@ -1,0 +1,61 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Barra superior*/
+.menu_icon
+{
+    padding: 10px;
+    margin: 12px 05px;
+    width: auto;
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin-left: 1092px;    
+    border-radius: 05px;
+    
+}
+
+#registro
+{
+    margin: auto;
+}
+
+.logo
+{
+    width: 37px;
+    margin: 10px;
+    float: left;
+}
+
+.contenedor
+{
+    background: #273c75;
+}
+
+
+/* Introduccion a la pagina*/
+.principal
+{
+    margin: 15px;
+}
+
+.introduccion p
+{
+    padding: 10px 0px;
+}
+
+/* Opciones depplegables*/
+
+.seleccion
+{
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+label
+{
+    font-size: 25px;
+}
