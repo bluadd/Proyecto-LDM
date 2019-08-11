@@ -11,11 +11,16 @@
     margin: 12px 05px;
     width: auto;
     background: yellow;
-    list-style: none;
     display: inline-block;
     margin-left: 1092px;    
     border-radius: 05px;
     
+}
+
+.menu_link
+{
+    color: black;
+    text-decoration: none;
 }
 
 #registro
