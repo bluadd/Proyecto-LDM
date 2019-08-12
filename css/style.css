@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-/* Barra superior*/
+/* Menu superior*/
 .menu_icon
 {
     padding: 10px;
@@ -12,8 +12,10 @@
     width: auto;
     background: yellow;
     display: inline-block;
-    margin-left: 1092px;    
+    margin-left: auto;    
     border-radius: 05px;
+    position: relative;
+    left: 1080px;
     
 }
 
@@ -40,6 +42,7 @@
     background: #273c75;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* Introduccion a la pagina*/
 .principal
@@ -52,7 +55,9 @@
     padding: 10px 0px;
 }
 
-/* Opciones depplegables*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Seleccion del semestre*/
 
 .seleccion
 {
@@ -66,13 +71,47 @@ label
     margin: 15px;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*Seleccion de materia*/
+
 .sel_materia
 {
     margin: 20px; 
 }
 
-.sel_materia ul
+.list-icon 
 {
     list-style: none;
     font-size: 20px;
+    text-decoration: none;
 }
+
+.list-icon label
+{
+    font-size: 20px;
+}
+
+.list-icon li
+{
+    line-height: 180%;
+}
+
+.interior
+{
+    display: none;
+
+}
+input:checked ~ ul
+{display: block;
+}
+
+
+
+
+.interior
+{
+    margin-left: 100px;
+    padding-top: 05px;
+}
+

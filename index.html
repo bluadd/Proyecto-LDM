@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Asesorias Par</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="recursos/fontello-c30980ed/css/fontello.css">
-</head>
-<body>
-    <header class="header">
-        <div class="contenedor">
-            <img src="recursos/logo.png" alt="UAS logotipo" class="logo">
-            <nav class="nav">
-                        <!-- Crear pagina para iniciar sesion -->
-                    <button class="menu_icon"><a class="menu_link" href="html/Sesion.html">Iniciar Sesion</a></button>
-                         <!-- Crear pagina para el registro -->
-                    <button class="menu_icon" id="registro"><a class="menu_link" href="html/Registro.html">Registrarse</a></button>
-                                 
-                         <!-- Crear pagina para revisar el perfil cuando la sesion este iniciada
-                    <li class="menu_icon"><a class="menu_link" href="menu/perfil.html"></a>Perfil</li> -->
-            </nav>
-        </div>
-    </header>
-    <div class="principal">
-        <section class="introduccion">
-            <h1 class="tittle">Bienvenido</h1>
-            <p>Esta pagina tiene como objetivo el hacer mas rapido el proceso para consultar con un asesor par. Enseguida encontraras listas organizadas por semestres, en las que podras seleccionar la materia en la que podrias necesitar ayuda, entonces se te desplegara la lista con los alumnos capaces de asesorarte con dicha materia. Tu mismo podrias ser un asesor par y ayudar a otros alumnos, seleccionando el boton registrar te encotraras con otra pagina en la que seras capaz de introducir tus datos y la materia u materias que dominas y podrias ayudar a otros a dominar, automaticamente tus datos seran cargados a la base de datos y apareceras en las listas de la pagina principal, podras cambiar tus datos cuando y como quieras y automaticamente se actualzara la base de datos, con esto no sera neceserario que te registres nuevamente si quisieras cambiar la materias en las que quisieras dar asesorias.<b> Nota: el programa de asesorias par solamente se imparte dentro de las instalaciones de la unidad academica ya sea despues de clases o durante tiempos libres (si te pones deacuerdo con la otra persona) no nos hacemos responsables por actividades de asesoramiento fuera del plantel academico.</b></p>
-        </section>
-    </div>
-    <div class="menu_principal">
-        <section class="sel_semestre">
-            <label for="">Semestre</label>
-            <select name="Semestre" class="seleccion">
-                <option value=""> Seleccione un semestre </option>
-                <option value="01">Semestre 1</option>
-                <option value="02">Semestre 2</option>
-                <option value="03">Semestre 3</option>
-                <option value="04">Semestre 4</option>
-                <option value="05">Semestre 5</option>
-                <option value="06">Semestre 6</option>
-            </select>
-        </section>
-        <section class="sel_materia">
-            <nav>
-                <ul class= "list-icon">
-                    <li><a href="#"><span class="icon-right-dir">Materia 1</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 2</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 3</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 4</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 5</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 6</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 7</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 8</span></a></li>
-                    <li><a href="#"><span class="icon-right-dir">Materia 9</span></a></li>      
-                </ul>
-            </nav>
-        </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Asesorias Par</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="recursos/fontello-c30980ed/css/fontello.css">
+    </head>
+    <body>
+         <!--////////////////////////////////////////////////////////////////////////////////////////-->
         
-    </div>
-</body>
+                                        <!-- Menu Superior -->
+
+        <header class="header">
+            <div class="contenedor">
+                            <!--Logo de la pagina esquina superior izquierda-->
+                <img src="recursos/logo.png" alt="UAS logotipo" class="logo">
+                <nav class="nav">
+                            <!-- Boton para Inicio de Sesion -->
+                        <button class="menu_icon"><a class="menu_link" href="html/Sesion.html">Iniciar Sesion</a></button>
+                            <!-- Boton para el Registro -->
+                        <button class="menu_icon" id="registro"><a class="menu_link" href="html/Registro.html">Registrarse</a></button>
+                                    
+                            <!-- Crear pagina para revisar el perfil cuando la sesion este iniciada
+                        <li class="menu_icon"><a class="menu_link" href="menu/perfil.html"></a>Perfil</li> -->
+                </nav>
+            </div>
+        </header>
+
+         <!--////////////////////////////////////////////////////////////////////////////////////////-->
+
+                                        <!-- Introduccion a la pagina -->
+        <div class="principal">
+            <section class="introduccion">
+                <h1 class="tittle">Bienvenido</h1>
+                <p>Esta pagina tiene como objetivo el hacer mas rapido el proceso para consultar con un asesor par. Enseguida encontraras listas organizadas por semestres, en las que podras seleccionar la materia en la que podrias necesitar ayuda, entonces se te desplegara la lista con los alumnos capaces de asesorarte con dicha materia. Tu mismo podrias ser un asesor par y ayudar a otros alumnos, seleccionando el boton registrar te encotraras con otra pagina en la que seras capaz de introducir tus datos y la materia u materias que dominas y podrias ayudar a otros a dominar, automaticamente tus datos seran cargados a la base de datos y apareceras en las listas de la pagina principal, podras cambiar tus datos cuando y como quieras y automaticamente se actualzara la base de datos, con esto no sera neceserario que te registres nuevamente si quisieras cambiar la materias en las que quisieras dar asesorias.<b> Nota: el programa de asesorias par solamente se imparte dentro de las instalaciones de la unidad academica ya sea despues de clases o durante tiempos libres (si te pones deacuerdo con la otra persona) no nos hacemos responsables por actividades de asesoramiento fuera del plantel academico.</b></p>
+            </section>
+        </div>
+
+         <!--////////////////////////////////////////////////////////////////////////////////////////-->
+
+                                        <!--Selector del semestre (faltan arreglos)-->
+        <div class="menu_principal">
+            <section class="sel_semestre">
+                <label for="Semestre">Semestre</label>
+                <select name="Semestre" class="seleccion">
+                    <option value=""> Seleccione un semestre </option>
+                    <option value="01">Semestre 1</option>
+                    <option value="02">Semestre 2</option>
+                    <option value="03">Semestre 3</option>
+                    <option value="04">Semestre 4</option>
+                    <option value="05">Semestre 5</option>
+                    <option value="06">Semestre 6</option>
+                </select>
+            </section>
+         <!--////////////////////////////////////////////////////////////////////////////////////////-->
+
+                                        <!--Lista con las materias (por elaborar) -->
+
+            <section class="sel_materia">
+                <nav>
+                    <ul class= "list-icon">
+                        <li><input type="checkbox" name="list" id="Id"/><label for="Id"><span class="icon-right-dir">Materia 1</span></label><!-- <span class="icon-right-dir">Materia 1</span> -->
+                                <ul class="interior">
+                                    <li>Persona 1</li>
+                                    <li>Persona 2</li>
+                                </ul>
+                        </li>
+                        <li><span class="icon-right-dir">Materia 2</span></li>
+                        <li><span class="icon-right-dir">Materia 3</span></li>
+                        <li><span class="icon-right-dir">Materia 4</span></li>
+                        <li><span class="icon-right-dir">Materia 5</span></li>
+                        <li><span class="icon-right-dir">Materia 6</span></li>
+                        <li><span class="icon-right-dir">Materia 7</span></li>
+                        <li><span class="icon-right-dir">Materia 8</span></li>
+                        <li><span class="icon-right-dir">Materia 9</span></li>
+                        
+                    </ul>
+                </nav>
+            </section>
+            
+        </div>
+    </body>
 </html>
 
-<!--
-                    <li><a href="#">Materia 2<span class="icon-right-dir"></span></a></li>
-                    <li><a href="#">Materia 3<span class="icon-right-dir"></span></a></li>
-                    <li><a href="#">Materia 4<span class="icon-right-dir"></span></a></li>
-                    <li><a href="#">Materia 5<span class="icon-right-dir"></span></a></li>
-                    <li><a href="#">Materia 6<span class="icon-right-dir"></span></a></li>
-                    <li><a href="#">Materia 7<span class="icon-right-dir"></span></a></li>
-                    <li><a href="#">Materia 8<span class="icon-right-dir"></span></a></li> 
-                    <li><a href="#">Materia 9<span class="icon-right-dir"></span></a></li>
-                -->
